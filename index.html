@@ -1,170 +1,222 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="portfolio.css" rel="stylesheet">
+    <link href="portfolio.css" rel="stylesheet" />
   </head>
   <body>
     <div class="header">
       <div class="left-section">
-        <img src="images/logo.png" class="header-logo">
+        <img
+          src="images/88d73105-29bd-41f9-835b-267502c6c008.webp"
+          class="header-logo"
+        />
       </div>
       <div class="mid-section">
         <div>
-          <button>Home</button>
+          <button id="1">Home</button>
         </div>
         <div>
-          <button>Features</button>
+          <button id="2">Skills</button>
         </div>
         <div>
-          <button>Pricing</button>
+          <button id="3">Projects</button>
         </div>
         <div>
-          <button>About</button>
+          <button id="4">About</button>
         </div>
       </div>
       <div class="right-section">
-        <button class="hire-button">Hire Me</button>
+        <button
+          class="hire-button"
+          onclick="window.open('https://drive.google.com/file/d/1LlVVGSEmTAiGjCrM-0RaaxUKBDqDsXv4/view?usp=drivesdk', '_blank')"
+        >
+          Resume
+        </button>
       </div>
     </div>
 
-    <div class="home-tab">
+    <div id="01" class="home-tab">
       <div class="home-right-section">
-        <img src="images/header.png" class="home-img">
+        <img src="images/header.png" class="home-img" />
       </div>
 
       <div class="home-left-section">
-        <p class="p1">CREATE YOUR WEBSITE LIKE A PRO</p>
-        <P class="p2">Hi, I'm <span class="name">Reza</span>, Web</P>
+        <p class="p1">WELCOME TO MY PORTFOLIO</p>
+        <p class="p2">Hi, I'm <span class="name">Prem</span>, A Full Stack</p>
         <p class="p3">Developer</p>
-        <p class="p4">Lorem ipsum, dolor sit amet consectuter adipisicing elit. Repellendus rem eas aliquad quo rerum temporibus ipsum distinctio numqum ut amnis placeat, nam sint atque quos dolorem laborum? Rerum, esse dolerum.</p>
-        <button class="get-started">Get Started</button>
+        <p class="p4">
+          Passionate about building scalable and innovative web applications.
+        </p>
+        <p class="p4">
+          I have experience in developing full-stack web applications using the
+          MERN stack and integrating AI-based solutions. My journey includes
+          working on real-time projects, enhancing women’s safety through tech,
+          and continuously learning DSA to improve my problem-solving skills.
+        </p>
+        <button class="get-started" id="5">View My Work</button>
       </div>
     </div>
 
     <div class="features-tab">
-      <div class="features-heading">
-        <p>OUR FEATURES</p>
+      <div id="02" class="features-heading block">
+        <p>MY SKILLS</p>
       </div>
-      <div class="card-grid">
+      <div class="card-grid block">
         <div class="card">
-          <img src="images/money-dollar-box-line.png" class="card-icon">
-          <p class="card-heading">Free Tutorials</p>
-          <p>My tutorials in my channel are free  and you don't need to pay anything </p>
-          <a>Join Now </a>
-          
+          <img src="images/money-dollar-box-line.png" class="card-icon" />
+          <p class="card-heading">Full-Stack Development</p>
+          <p>Building scalable web applications using the MERN stack.</p>
         </div>
         <div class="card">
-          <img src="images/bug-line.png" class="card-icon">
-          <p class="card-heading">Fix your bugs</p>
-          <p>You have any problem in your codes? Tell me, I will help you fix it.</p>
-          <a>Join Now </a>
+          <img src="images/bug-line.png" class="card-icon" />
+          <p class="card-heading">AI Integration</p>
+          <p>Implementing AI-powered features in web applications.</p>
         </div>
         <div class="card">
-          <img src="images/history-line.png" class="card-icon">
-          <p class="card-heading">On Time Videos</p>
-          <p>We have video each 4 days. So check channel every 4 days to watch it!</p>
-          <a>Join Now</a>
+          <img src="images/history-line.png" class="card-icon" />
+          <p class="card-heading">DSA & Problem Solving</p>
+          <p>
+            Strong foundation in Data Structures and Algorithms, with over 150
+            questions solved on LeetCode.
+          </p>
         </div>
         <div class="card">
-          <img src="images/shake-hands-line.png" class="card-icon">
-          <p class="card-heading">Cooperation</p>
-          <p>You want we work together? Write email to us, we will read it.</p>
-          <a>Join Now</a>
+          <img src="images/shake-hands-line.png" class="card-icon" />
+          <p class="card-heading">Collaborative Team Player</p>
+          <p>
+            Working in a team environment and contributing to the success of the
+            project.
+          </p>
         </div>
       </div>
     </div>
 
     <div class="pricing-tab">
-      <div class="pricing-heading">
-        <p>PROJECT PRICING PLANS</p>
+      <div id="03" class="pricing-heading block">
+        <p>Projects</p>
       </div>
-      <div class="pricing-subheading">
-        <p>Our pricing plans come with various membership tiers, each talored to</p><p> cater to different projects and class+ code hypes</p>
+      <div class="pricing-subheading block">
+        <p>
+          Here are some of the projects I have worked on. These projects
+          showcase my skills in full-stack development.
+        </p>
+        <p>
+          You can view the code on GitHub or check out the live demo of the
+          project.
+        </p>
       </div>
-      <div class="price-grid">
+      <div class="price-grid block">
         <div class="price-card">
-          <p>Basic Plan</p>
-          <p class="price">0$</p>
-          <p class="margin">..............................</p>
-          <div class="price-icons">
-            <p><img src="images/checkbox-circle-line.png" class="checkbox"> </p>
-            <p>Smart coding plans</p>
-          </div>
-          <div class="price-icons">
-            <p><img src="images/checkbox-circle-line.png" class="checkbox"> </p>
-            <p>At home workouts</p>
-          </div>
+          <p class="price">Natours - Tour Booking App</p>
+          <p>
+            A tour booking app that allows users to book tours and make payments
+            online. Implemented user authentication and authorization.
+          </p>
+          <p>Tech Stack: Node.js, Express, MongoDB, Stripe</p>
           <div class="join-container">
-            <button class="join-button">Join Now</button>
+            <button
+              class="join-button"
+              onclick="window.open('https://github.com/Prem-Kumar02/Natours', '_blank')"
+            >
+              GitHub
+            </button>
+
+            <button
+              class="join-button"
+              onclick="window.open('https://natours-7qx4.onrender.com/', '_blank')"
+            >
+              Live Demo
+            </button>
           </div>
         </div>
         <div class="price-card">
-          <p>Gold Plan</p>
-          <p class="price">10$</p>
-          <p class="margin">..............................</p>
-          <div class="price-icons">
-            <p><img src="images/checkbox-circle-line.png" class="checkbox"> </p>
-            <p>Pro Codes</p>
-          </div>
-          <div class="price-icons">
-            <p><img src="images/checkbox-circle-line.png" class="checkbox"> </p>
-            <p>At home workouts</p>
-          </div>
+          <p class="price">Reimagining NIKE</p>
+          <p>
+            A redesign of the NIKE website with a focus on user experience and
+            modern design. Implemented responsive design for various devices.
+          </p>
+          <p>Tech Stack: React , Tailwind CSS</p>
           <div class="join-container">
-            <button class="join-button">Join Now</button>
+            <button
+              class="join-button"
+              onclick="window.open('https://github.com/Prem-Kumar02/Nike', '_blank')"
+            >
+              GitHub
+            </button>
+
+            <button
+              class="join-button"
+              onclick="window.open('https://nike-three-delta.vercel.app/', '_blank')"
+            >
+              Live Demo
+            </button>
           </div>
         </div>
         <div class="price-card">
-          <p>Diamond Plan</p>
-          <p class="price">20$</p>
-          <p class="margin">..............................</p>
-          <div class="price-icons">
-            <p><img src="images/checkbox-circle-line.png" class="checkbox"> </p>
-            <p>Personal Coaching</p>
-          </div>
-          <div class="price-icons">
-            <p><img src="images/checkbox-circle-line.png" class="checkbox"> </p>
-            <p>At home workouts</p>
-          </div>
+          <p class="price">Weather Web Application</p>
+          <p>
+            A weather web application that displays the current weather and
+            forecast for the next 5 days. Implemented geolocation and API
+            integration.
+          </p>
+          <p>Tech Stack: HTML , CSS , JAVASCRIPT</p>
           <div class="join-container">
-            <button class="join-button">Join Now</button>
+            <button
+              class="join-button"
+              onclick="window.open('https://github.com/Prem-Kumar02/Weather-Forecast', '_blank')"
+            >
+              GitHub
+            </button>
+
+            <button
+              class="join-button"
+              onclick="window.open('https://weather-forecast-chi-seven.vercel.app/', '_blank')"
+            >
+              Live Demo
+            </button>
           </div>
         </div>
       </div>
     </div>
 
     <div class="about-tab">
-      <div class="about-card">
-        <img src="images/logo.png" class="header-logo">
-        <p>Lorem ipsum dolor sit amet consecutetur adipisicing elit.</p>
+      <div id="04" class="about-card">
+        <img
+          src="images/88d73105-29bd-41f9-835b-267502c6c008.webp"
+          class="header-logo"
+        />
+        <p>Let's connect and build something amazing together.</p>
         <div class="social-handles">
-          <img src="images/youtube-line.svg" class="yt">
-          <img src="images/instagram-line.svg" class="yt">
-          <img src="images/twitter-line.svg" class="yt">
-
+          <a href="#"><img src="images/youtube-line.svg" class="yt" /></a>
+          <a href="#"><img src="images/instagram-line.svg" class="yt" /></a>
+          <a href="#"><img src="images/twitter-line.svg" class="yt" /></a>
         </div>
       </div>
       <div class="about-card">
-        <p class="footer-heading">Company</p>
-        <div><p>Business</p></div>
-        <div><p>Partnership</p></div>
-        <div><p>Network</p></div>
-      </div>
-      <div class="about-card">
-        <p class="footer-heading">About us</p>
-        <div><p>Blogs</p></div>
-        <div><p>Channels</p></div>
-        <div><p>Sponsors</p></div>
+        <p class="footer-heading">Connect with me</p>
+        <div>
+          <p>
+            <a href="https://www.linkedin.com/in/prem-kumar-a33183314"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+        <div>
+          <p><a href="https://github.com/Prem-Kumar02">GitHub</a></p>
+        </div>
       </div>
       <div class="about-card">
         <p class="footer-heading">Contact</p>
-        <div><p>Contact us</p></div>
-        <div><p>Privacy Policies</p></div>
-        <div><p>Terms & Conditions</p></div>
+        <div>
+          <p>
+            <a href="mailto:premkumar020405@gmail.com"
+              >Email: premkumar020405@gmail.com</a
+            >
+          </p>
+        </div>
       </div>
     </div>
-    
 
-    
+    <script type="module" src="portfolio.js"></script>
   </body>
 </html>
